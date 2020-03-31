@@ -1,0 +1,31 @@
+npm é um gerenciador de pacotes
+vai servir para isntalar pacotes e iniciar nosso projeto
+
+terminal, pasta do projeto:
+npm init -y
+
+criar servidor
+instalar o express:
+npm i express
+//i é de instalação
+
+monitorar o node
+sempre que tiver alguma alteração nos arquivos, ele vai restartar o servidor
+instalar o nodemon:
+npm i nodemon
+
+package.json
+localizar "start": "node server.js"
+alterar node por nodemon
+
+RODAR O SERVIDOR:
+terminal
+npm start
+
+Nunjucks vai permitir que use variáveis no html
+instalar pacote nunjucks:
+terminal:
+npm i nunjucks
+
+RODAR O SERVIDOR backend:
+npm run dev
